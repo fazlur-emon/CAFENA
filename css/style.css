@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.cf {
+    padding: 0;
+    background: black;
+    text-align: center;
+    opacity: .8;
+    margin: 0;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background: blanchedalmond;
+    border-radius: 4px;
+    padding: 10px;
+    /* font-size: 21px; */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #D3AD7F;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link i{
+    padding: 0px 15px;
+    font-size: 20px;
+}
+header{
+    background-image: url(../images/home-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+.header-info{
+    color: white;
+    padding: 150px 0px;
+}
+.header-info h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.header-info h6{
+    font-size: 18px;
+    font-weight: 300;
+    width: 85%;
+    margin-top: 24px;
+}
+.btn-get{
+    background:transparent;
+    border: none;
+    background:#D3AD7F ;
+    border-radius: 0;
+    color: whitesmoke;
+    margin: 24px 0px;
+}
+.btn-get:hover{
+    transition: .4s all ease-in-out;
+    color: white;
+    padding-right: 40px;
+}
+.about-us{
+    background: black;
+    min-height: 80vh;
+}
+.heading{
+}
+.heading h2{
+    color: white;
+}
+.heading h2 span{
+    color: #D3AD7F;
+}
+.about-bg{
+    background: #13131A;
+}
+.about-img{
+    margin-left: -10px;
+}
+.about-img img{
+    width: 100%;
+    margin: auto;
+}
+.about-infos{
+    color: white;
+}
+.about-infos h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-infos p{
+     font-size: 14px;
+     font-weight: 300;
+     margin: 30px 0px;
+}
+.btn-learn{
+    background:transparent;
+    border: none;
+    background:#D3AD7F ;
+    border-radius: 0;
+    color: whitesmoke;
+    margin: 24px 0px;
+    transition: .4s all ease-in-out;
+}
+.btn-learn:hover{
+    padding-right: 50px;
+    color: whitesmoke;
+}
+.menu{
+    background: black;
+}
+.menu-items{
+    border: 1px solid #D3AD7F;
+    color: white;
+    padding: 50px;
+    transition: .4s all ease-in-out;
+}
+.menu-items:hover{
+    background: white;
+    color: #13131A;
+}
+.item-img{
+    margin-bottom: 24px;
+}
+.item-img img{
+
+}
+.menu-items h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.menu-items h3{
+    font-size: 28px;
+}
+.menu-items h3 span{
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.btn-cart{
+    background: transparent;
+    border: none;
+    background: #D3AD7F;
+    border-radius: 0px;
+    padding: 0;
+    padding: 5px 20px;
+    color: whitesmoke;
+    transition: .4s all ease-in-out;
+    font-size: 14px;
+}
+.btn-cart:hover{
+    color: whitesmoke;
+    padding: 5px 30px;
+}
+.product{
+    background: black;
+}
+.product-content{
+    border: 1px solid #D3AD7F;
+}
+.icon-list{
+    
+}
+.icon-list i{
+     color: white;
+     font-size: 20px;
+     margin-right: 5px;
+     height: 50px;
+     width: 50px;
+     line-height: 50px;
+     border: 1px solid whitesmoke;
+     text-align: center;
+     transition: .3s all ease-in-out;
+}
+.icon-list i:hover{
+    color: white;
+    background: #D3AD7F;
+}
+.product-content h3{
+    color: white;
+}
+.product-content p i{
+    color: goldenrod;
+}
+.product-content h4{
+    color: white;
+    font-size: 28px;
+}
+.product-content h4 span{
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.review{
+    background: black;
+}
+.client{
+    border: 1px solid #D3AD7F;
+    padding: 15px 15px;
+    color: white;
+}
+.quote-img{
+    padding: 10px 0px;
+}
+.quote-img img{
+    
+}
+.client p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.client-img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+
+}
+.client-img img{
+
+}
+.client h3{
+    color: white;
+    margin-top: 15px;
+}
+.client h6 i{
+    color: goldenrod;
+}
+.blog{
+    background: black;
+}
+.post{
+    border: 1px solid rgba(248, 248, 248, 0.597);
+    overflow: hidden !important;
+
+}
+.post:hover .blog-img img{
+    transform: scale(1.1);
+    overflow: hidden !important;
+    transition: .2s all ease-in;
+}
+.blog-img{
+    
+}
+.blog-img img{
+    width: 100%;
+    
+}
+.post-info{
+    
+}
+.post-info h3{
+    color: white;
+}
+.post-info h4{
+    color: #D3AD7F;
+    font-size: 20px;
+}
+.post-info p{
+     color: white;
+     font-size: 14px;
+
+} 
+.contact{
+    background: black;
+}
+.mail-part{
+    text-align: center;
+    background: #13131A;
+    padding: 148px 0px;
+}
+.mail-part h3{
+    color: #D3AD7F;
+    text-transform: uppercase;
+}
+.inputbox{
+    background: black;
+    border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.inputbox i{
+    color: white;
+    font-size: 20px;
+}
+.inputbox input{
+    background: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+.inputbox input:focus{
+    outline: none;
+}
+input[type="submit"]{
+    color: white;
+    background: transparent;
+    background: #D3AD7F;
+    border-radius: 0px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: .4s all ease-in-out;
+}
+input[type="submit"]:hover{
+    color: white;
+    padding: 10px 40px;
+}
+footer{
+    background: #13131A;
+}
+.icon-f{
+    
+}
+.icon-f i{
+    font-size: 20px;
+    color: white;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+.icon-f i:hover{
+    background: #D3AD7F;
+    color: white;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+.nav-items{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.nav-items h5{
+    color: white;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav-items h5:hover{
+    background: #D3AD7F;
+    color: whitesmoke;
+    cursor: pointer;
+}
+footer p{
+    color: white;
+}
+footer p span{
+    font-size: 20px;
+    color: #D3AD7F;
+}
